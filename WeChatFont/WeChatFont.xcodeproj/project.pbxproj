@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD9823C322F6C2B60012FC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9823C122F6C2B60012FC56 /* Main.storyboard */; };
+		FD9823C522F6C2B70012FC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9823C422F6C2B70012FC56 /* Assets.xcassets */; };
+		FD9823C822F6C2B70012FC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9823C622F6C2B70012FC56 /* LaunchScreen.storyboard */; };
+		FD9823CB22F6C2B70012FC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9823CA22F6C2B70012FC56 /* main.m */; };
+		FD9823D522F6C2B70012FC56 /* WeChatFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9823D422F6C2B70012FC56 /* WeChatFontTests.m */; };
+		FD9823E022F6C2B70012FC56 /* WeChatFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9823DF22F6C2B70012FC56 /* WeChatFontUITests.m */; };
+		FD9823FE22F6C3100012FC56 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9823FA22F6C3100012FC56 /* BaseNavigationController.m */; };
+		FD9823FF22F6C3100012FC56 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9823FC22F6C3100012FC56 /* BaseTabBarController.m */; };
+		FD98240022F6C3100012FC56 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9823FD22F6C3100012FC56 /* BaseViewController.m */; };
+		FD98241822F6C4890012FC56 /* UIImage+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98241622F6C4880012FC56 /* UIImage+Operation.m */; };
+		FD98242822F6C8870012FC56 /* FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98242222F6C8860012FC56 /* FontSize.m */; };
+		FD98242922F6C8870012FC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98242322F6C8870012FC56 /* AppDelegate.m */; };
+		FD98242A22F6C8870012FC56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98242622F6C8870012FC56 /* ViewController.m */; };
+		FD98243922F6C93F0012FC56 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98242D22F6C93F0012FC56 /* MineViewController.m */; };
+		FD98243A22F6C93F0012FC56 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98242F22F6C93F0012FC56 /* MessageViewController.m */; };
+		FD98243B22F6C93F0012FC56 /* DetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98243222F6C93F0012FC56 /* DetectionViewController.m */; };
+		FD98243C22F6C93F0012FC56 /* AddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98243722F6C93F0012FC56 /* AddressBookCell.m */; };
+		FD98243D22F6C93F0012FC56 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98243822F6C93F0012FC56 /* AddressBookViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD9823D122F6C2B70012FC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9823B022F6C2B60012FC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9823B722F6C2B60012FC56;
+			remoteInfo = WeChatFont;
+		};
+		FD9823DC22F6C2B70012FC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9823B022F6C2B60012FC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9823B722F6C2B60012FC56;
+			remoteInfo = WeChatFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD9823B822F6C2B60012FC56 /* WeChatFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9823C222F6C2B60012FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9823C422F6C2B70012FC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD9823C722F6C2B70012FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD9823C922F6C2B70012FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9823CA22F6C2B70012FC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD9823D022F6C2B70012FC56 /* WeChatFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9823D422F6C2B70012FC56 /* WeChatFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatFontTests.m; sourceTree = "<group>"; };
+		FD9823D622F6C2B70012FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9823DB22F6C2B70012FC56 /* WeChatFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9823DF22F6C2B70012FC56 /* WeChatFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatFontUITests.m; sourceTree = "<group>"; };
+		FD9823E122F6C2B70012FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9823F822F6C30F0012FC56 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		FD9823F922F6C3100012FC56 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		FD9823FA22F6C3100012FC56 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		FD9823FB22F6C3100012FC56 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FD9823FC22F6C3100012FC56 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		FD9823FD22F6C3100012FC56 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FD98240222F6C3D60012FC56 /* WeChatFontSize.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatFontSize.pch; sourceTree = "<group>"; };
+		FD98241622F6C4880012FC56 /* UIImage+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Operation.m"; sourceTree = "<group>"; };
+		FD98241722F6C4880012FC56 /* UIImage+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Operation.h"; sourceTree = "<group>"; };
+		FD98242222F6C8860012FC56 /* FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSize.m; sourceTree = "<group>"; };
+		FD98242322F6C8870012FC56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD98242422F6C8870012FC56 /* FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSize.h; sourceTree = "<group>"; };
+		FD98242522F6C8870012FC56 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD98242622F6C8870012FC56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD98242722F6C8870012FC56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD98242C22F6C93F0012FC56 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		FD98242D22F6C93F0012FC56 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		FD98242F22F6C93F0012FC56 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		FD98243022F6C93F0012FC56 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		FD98243222F6C93F0012FC56 /* DetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectionViewController.m; sourceTree = "<group>"; };
+		FD98243322F6C93F0012FC56 /* DetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectionViewController.h; sourceTree = "<group>"; };
+		FD98243522F6C93F0012FC56 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		FD98243622F6C93F0012FC56 /* AddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookCell.h; sourceTree = "<group>"; };
+		FD98243722F6C93F0012FC56 /* AddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookCell.m; sourceTree = "<group>"; };
+		FD98243822F6C93F0012FC56 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9823B522F6C2B60012FC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9823CD22F6C2B70012FC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9823D822F6C2B70012FC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD9823AF22F6C2B60012FC56 = {
+			isa = PBXGroup;
+			children = (
+				FD9823BA22F6C2B60012FC56 /* WeChatFont */,
+				FD9823D322F6C2B70012FC56 /* WeChatFontTests */,
+				FD9823DE22F6C2B70012FC56 /* WeChatFontUITests */,
+				FD9823B922F6C2B60012FC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9823B922F6C2B60012FC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9823B822F6C2B60012FC56 /* WeChatFont.app */,
+				FD9823D022F6C2B70012FC56 /* WeChatFontTests.xctest */,
+				FD9823DB22F6C2B70012FC56 /* WeChatFontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9823BA22F6C2B60012FC56 /* WeChatFont */ = {
+			isa = PBXGroup;
+			children = (
+				FD98240222F6C3D60012FC56 /* WeChatFontSize.pch */,
+				FD98241722F6C4880012FC56 /* UIImage+Operation.h */,
+				FD98241622F6C4880012FC56 /* UIImage+Operation.m */,
+				FD98242722F6C8870012FC56 /* AppDelegate.h */,
+				FD98242322F6C8870012FC56 /* AppDelegate.m */,
+				FD98242422F6C8870012FC56 /* FontSize.h */,
+				FD98242222F6C8860012FC56 /* FontSize.m */,
+				FD98242522F6C8870012FC56 /* ViewController.h */,
+				FD98242622F6C8870012FC56 /* ViewController.m */,
+				FD9823F722F6C2F40012FC56 /* b */,
+				FD98243422F6C93F0012FC56 /* ab */,
+				FD98243122F6C93F0012FC56 /* dtc */,
+				FD98242B22F6C93F0012FC56 /* mine */,
+				FD98242E22F6C93F0012FC56 /* msg */,
+				FD9823C122F6C2B60012FC56 /* Main.storyboard */,
+				FD9823C422F6C2B70012FC56 /* Assets.xcassets */,
+				FD9823C622F6C2B70012FC56 /* LaunchScreen.storyboard */,
+				FD9823C922F6C2B70012FC56 /* Info.plist */,
+				FD9823CA22F6C2B70012FC56 /* main.m */,
+			);
+			path = WeChatFont;
+			sourceTree = "<group>";
+		};
+		FD9823D322F6C2B70012FC56 /* WeChatFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9823D422F6C2B70012FC56 /* WeChatFontTests.m */,
+				FD9823D622F6C2B70012FC56 /* Info.plist */,
+			);
+			path = WeChatFontTests;
+			sourceTree = "<group>";
+		};
+		FD9823DE22F6C2B70012FC56 /* WeChatFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9823DF22F6C2B70012FC56 /* WeChatFontUITests.m */,
+				FD9823E122F6C2B70012FC56 /* Info.plist */,
+			);
+			path = WeChatFontUITests;
+			sourceTree = "<group>";
+		};
+		FD9823F722F6C2F40012FC56 /* b */ = {
+			isa = PBXGroup;
+			children = (
+				FD9823F922F6C3100012FC56 /* BaseNavigationController.h */,
+				FD9823FA22F6C3100012FC56 /* BaseNavigationController.m */,
+				FD9823F822F6C30F0012FC56 /* BaseTabBarController.h */,
+				FD9823FC22F6C3100012FC56 /* BaseTabBarController.m */,
+				FD9823FB22F6C3100012FC56 /* BaseViewController.h */,
+				FD9823FD22F6C3100012FC56 /* BaseViewController.m */,
+			);
+			path = b;
+			sourceTree = "<group>";
+		};
+		FD98242B22F6C93F0012FC56 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				FD98242C22F6C93F0012FC56 /* MineViewController.h */,
+				FD98242D22F6C93F0012FC56 /* MineViewController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		FD98242E22F6C93F0012FC56 /* msg */ = {
+			isa = PBXGroup;
+			children = (
+				FD98242F22F6C93F0012FC56 /* MessageViewController.m */,
+				FD98243022F6C93F0012FC56 /* MessageViewController.h */,
+			);
+			path = msg;
+			sourceTree = "<group>";
+		};
+		FD98243122F6C93F0012FC56 /* dtc */ = {
+			isa = PBXGroup;
+			children = (
+				FD98243222F6C93F0012FC56 /* DetectionViewController.m */,
+				FD98243322F6C93F0012FC56 /* DetectionViewController.h */,
+			);
+			path = dtc;
+			sourceTree = "<group>";
+		};
+		FD98243422F6C93F0012FC56 /* ab */ = {
+			isa = PBXGroup;
+			children = (
+				FD98243522F6C93F0012FC56 /* AddressBookViewController.h */,
+				FD98243622F6C93F0012FC56 /* AddressBookCell.h */,
+				FD98243722F6C93F0012FC56 /* AddressBookCell.m */,
+				FD98243822F6C93F0012FC56 /* AddressBookViewController.m */,
+			);
+			path = ab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9823B722F6C2B60012FC56 /* WeChatFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9823E422F6C2B70012FC56 /* Build configuration list for PBXNativeTarget "WeChatFont" */;
+			buildPhases = (
+				FD9823B422F6C2B60012FC56 /* Sources */,
+				FD9823B522F6C2B60012FC56 /* Frameworks */,
+				FD9823B622F6C2B60012FC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatFont;
+			productName = WeChatFont;
+			productReference = FD9823B822F6C2B60012FC56 /* WeChatFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD9823CF22F6C2B70012FC56 /* WeChatFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9823E722F6C2B70012FC56 /* Build configuration list for PBXNativeTarget "WeChatFontTests" */;
+			buildPhases = (
+				FD9823CC22F6C2B70012FC56 /* Sources */,
+				FD9823CD22F6C2B70012FC56 /* Frameworks */,
+				FD9823CE22F6C2B70012FC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9823D222F6C2B70012FC56 /* PBXTargetDependency */,
+			);
+			name = WeChatFontTests;
+			productName = WeChatFontTests;
+			productReference = FD9823D022F6C2B70012FC56 /* WeChatFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD9823DA22F6C2B70012FC56 /* WeChatFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9823EA22F6C2B70012FC56 /* Build configuration list for PBXNativeTarget "WeChatFontUITests" */;
+			buildPhases = (
+				FD9823D722F6C2B70012FC56 /* Sources */,
+				FD9823D822F6C2B70012FC56 /* Frameworks */,
+				FD9823D922F6C2B70012FC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9823DD22F6C2B70012FC56 /* PBXTargetDependency */,
+			);
+			name = WeChatFontUITests;
+			productName = WeChatFontUITests;
+			productReference = FD9823DB22F6C2B70012FC56 /* WeChatFontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9823B022F6C2B60012FC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = FirstKeng;
+				TargetAttributes = {
+					FD9823B722F6C2B60012FC56 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					FD9823CF22F6C2B70012FC56 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FD9823B722F6C2B60012FC56;
+					};
+					FD9823DA22F6C2B70012FC56 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FD9823B722F6C2B60012FC56;
+					};
+				};
+			};
+			buildConfigurationList = FD9823B322F6C2B60012FC56 /* Build configuration list for PBXProject "WeChatFont" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9823AF22F6C2B60012FC56;
+			productRefGroup = FD9823B922F6C2B60012FC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9823B722F6C2B60012FC56 /* WeChatFont */,
+				FD9823CF22F6C2B70012FC56 /* WeChatFontTests */,
+				FD9823DA22F6C2B70012FC56 /* WeChatFontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9823B622F6C2B60012FC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9823C822F6C2B70012FC56 /* LaunchScreen.storyboard in Resources */,
+				FD9823C522F6C2B70012FC56 /* Assets.xcassets in Resources */,
+				FD9823C322F6C2B60012FC56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9823CE22F6C2B70012FC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9823D922F6C2B70012FC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9823B422F6C2B60012FC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD98241822F6C4890012FC56 /* UIImage+Operation.m in Sources */,
+				FD9823CB22F6C2B70012FC56 /* main.m in Sources */,
+				FD9823FF22F6C3100012FC56 /* BaseTabBarController.m in Sources */,
+				FD98243B22F6C93F0012FC56 /* DetectionViewController.m in Sources */,
+				FD98243922F6C93F0012FC56 /* MineViewController.m in Sources */,
+				FD98242A22F6C8870012FC56 /* ViewController.m in Sources */,
+				FD98240022F6C3100012FC56 /* BaseViewController.m in Sources */,
+				FD98243A22F6C93F0012FC56 /* MessageViewController.m in Sources */,
+				FD98242822F6C8870012FC56 /* FontSize.m in Sources */,
+				FD98243C22F6C93F0012FC56 /* AddressBookCell.m in Sources */,
+				FD98242922F6C8870012FC56 /* AppDelegate.m in Sources */,
+				FD98243D22F6C93F0012FC56 /* AddressBookViewController.m in Sources */,
+				FD9823FE22F6C3100012FC56 /* BaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9823CC22F6C2B70012FC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9823D522F6C2B70012FC56 /* WeChatFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9823D722F6C2B70012FC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9823E022F6C2B70012FC56 /* WeChatFontUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD9823D222F6C2B70012FC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9823B722F6C2B60012FC56 /* WeChatFont */;
+			targetProxy = FD9823D122F6C2B70012FC56 /* PBXContainerItemProxy */;
+		};
+		FD9823DD22F6C2B70012FC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9823B722F6C2B60012FC56 /* WeChatFont */;
+			targetProxy = FD9823DC22F6C2B70012FC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD9823C122F6C2B60012FC56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9823C222F6C2B60012FC56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9823C622F6C2B70012FC56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9823C722F6C2B70012FC56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9823E222F6C2B70012FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD9823E322F6C2B70012FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9823E522F6C2B70012FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeChatFont/WeChatFontSize.pch;
+				INFOPLIST_FILE = WeChatFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FirstKeng.WeChatFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD9823E622F6C2B70012FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeChatFont/WeChatFontSize.pch;
+				INFOPLIST_FILE = WeChatFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FirstKeng.WeChatFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD9823E822F6C2B70012FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FirstKeng.WeChatFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatFont.app/WeChatFont";
+			};
+			name = Debug;
+		};
+		FD9823E922F6C2B70012FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FirstKeng.WeChatFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatFont.app/WeChatFont";
+			};
+			name = Release;
+		};
+		FD9823EB22F6C2B70012FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FirstKeng.WeChatFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeChatFont;
+			};
+			name = Debug;
+		};
+		FD9823EC22F6C2B70012FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FirstKeng.WeChatFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeChatFont;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9823B322F6C2B60012FC56 /* Build configuration list for PBXProject "WeChatFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9823E222F6C2B70012FC56 /* Debug */,
+				FD9823E322F6C2B70012FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9823E422F6C2B70012FC56 /* Build configuration list for PBXNativeTarget "WeChatFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9823E522F6C2B70012FC56 /* Debug */,
+				FD9823E622F6C2B70012FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9823E722F6C2B70012FC56 /* Build configuration list for PBXNativeTarget "WeChatFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9823E822F6C2B70012FC56 /* Debug */,
+				FD9823E922F6C2B70012FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9823EA22F6C2B70012FC56 /* Build configuration list for PBXNativeTarget "WeChatFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9823EB22F6C2B70012FC56 /* Debug */,
+				FD9823EC22F6C2B70012FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9823B022F6C2B60012FC56 /* Project object */;
+}

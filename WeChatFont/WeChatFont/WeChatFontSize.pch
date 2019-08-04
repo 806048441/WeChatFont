@@ -1,0 +1,51 @@
+//
+//  WeChatFontSize.pch
+//  WeChatFontSize
+//
+//  Created by 神州第一坑 on 2019/8/2.
+//  Copyright © 2019 FirstKeng. All rights reserved.
+//
+
+#ifndef WeChatFontSize_pch
+#define WeChatFontSize_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "FontSize.h"
+
+#define fit_scale(number)  (number*[FontSize shareInstance].baseScale)
+#define font_set(number) [UIFont systemFontOfSize:number]
+#define font_bold_set(number) [UIFont boldSystemFontOfSize:number]
+
+/**
+ by keng
+ 屏幕适配区分
+ */
+#define KSCREEN_WIDTH         ([UIScreen mainScreen].bounds.size.width)
+#define KSCREEN_HEIGHT        ([UIScreen mainScreen].bounds.size.height)
+//屏幕的高度
+#define SCREEN_MAX_LENGTH (MAX(KSCREEN_WIDTH, KSCREEN_HEIGHT))
+
+#define IPHONE_XH4 (SCREEN_MAX_LENGTH==480)
+
+#define IPHONE_XH5 (SCREEN_MAX_LENGTH==568)
+
+#define IPHONE_XH6 (SCREEN_MAX_LENGTH==667)
+
+#define IPHONE_XH6P (SCREEN_MAX_LENGTH==736)
+
+#define IPHONE_XHXOO  (SCREEN_MAX_LENGTH==812 || SCREEN_MAX_LENGTH==896)
+
+#define IPAD_CC9_7   (SCREEN_MAX_LENGTH==1024)
+
+#define IPAD_CC10_5  (SCREEN_MAX_LENGTH==1112)
+
+#define IPAD_CC12_9  (SCREEN_MAX_LENGTH==1336)
+
+#define NAVBAR_HEIGHT  (IPHONE_XHXOO?88:64)
+
+#define TABBAR_HEIGHT (IPHONE_XHXOO?83:49)
+
+#define TOOL_HEIGHT   (IPHONE_XHXOO?34:0)
+
+#endif /* WeChatFontSize_pch */
